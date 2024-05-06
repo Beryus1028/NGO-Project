@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="icon" href="./img/OSQK8890.JPG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="./navdonate.css">
+    <link rel="stylesheet" href="./donates1.css">
+    <!-- <link rel="stylesheet" href="./footer.css"> -->
+    <link rel="stylesheet" href="./style.css">
+  
+
+</head>
+<body>
+    
+
+       <heade>
+        
+
+        <div class="logo">
+            <img src="./img/OSQK8890.JPG" alt="logo">
+            Helping Hands</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html" >Home</a>
+                </li>
+                <li>
+                    <a href="./Teacher.html">Mission</a>
+                </li>
+                <li>
+                    <a href="./donates.html" class="active">Donate</a>
+                </li>
+                <li>
+                    <a href="./aboutus.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </heade>
+    
+    <section class="home">
+      <div class="home-text">
+
+        <h1>Your Help Means</h1>
+        <br>
+        <h1>THE WORLD TO US</h1>
+        
+    
+      </div>
+    </section>
+    
+
+   <div style="align-items: center;" class="donateimg">
+
+    <img style="justify-items: center; align-content: center; padding-left: 500px; width: 70%;" src="image/WhatsApp Image 2024-04-17 at 03.18.22_7e92912f.jpg" alt="picture">
+
+</div> 
+
+<div class="c">
+
+    <h1 >DONATION</h1>
+</div>
+
+<div class="ore">
+<h2 style="text-align: center;">Donate</h2>
+</div>
+
+<a href=""></a>
+<div class="containerdon">
+    <form action="#" id="myform" onsubmit="return validateform()"></form> 
+    <div class="input-field">
+        <label style="color: black; font-size: large;" >Choose currency</label>
+
+        <br>
+
+       <div class="Select">
+        <select style="font-size: large;" class="ee">
+            <option style="border: 3px; border-radius: 2px solid black; padding: 2px 5px;" value="n1">click</option required>
+            <SPan id="Choosecurrencyerror" class="Error"></SPan>
+            <option value="naira">naira</option required>
+            <span id="nairaerror" class="Error"></span>
+            <option value="dollar">dollar</option>
+            <span id="dollar error" class="Error"></span>
+            <option value="pound">pound</option required>
+            <span id="pounderror" class="Error"></span>
+        </select>
+        <div style="font-size: large;">
+
+
+            
+
+            <form onsubmit="return validateForm()">
+                <input type="tel" id="name" placeholder="amount" class="qq" required>
+                <br>
+                <button type="submit" class="aa">Donate</button>
+              </form>
+            
+            
+
+            
+         
+        
+
+     
+<br>
+<br>
+     
+
+        
+      </form>
+  </div> 
+     </div>
+       <p class="abc">This Ngo is established  to support kids in Nigeria to enable them have a quality 
+        education and better life. 
+     You can support us with your monthly contribution.
+    This will help to consistently build better access to learning for Nigerian children. 
+    Thank you.
+       </p>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">mission</a></li>
+                        <li><a href="#">donate</a></li>
+                        <li><a href="#">about us </a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+      
+                <div class="footer-col">
+                    <h4>contact us</h4>
+                    <ul>
+                        <li><a href="#">helpinghands@gmail.com</a></li>
+                        <li><a href="#">helpinghands62@gmail.com</a></li>
+                        <li><a href="#">+234-876-7890</a></li>
+                        <li><a href="#">+234-683-7653</a></li>
+                    </ul>
+                </div>
+      
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                    </div>
+                    
+                </div>
+          
+                </div>
+                
+                <div>
+                
+            </div>
+            
+        </div>
+      
+        <hr><hr>
+      
+        <div class="ptext">
+        <p>2024&copy;</p>
+        <p>Helping Hands</p>
+      </div>
+      
+      </footer>
+
+        <script>
+            function validateForm() {
+              var nameInput = document.getElementById('name');
+              
+              if (nameInput.value === '') {
+                nameInput.style.border = '2px solid red';
+                alert('amount is required!');
+                return false;
+              } else {
+                alert('Thank you for your donation!');
+              }
+              
+              return true;
+            }
+          </script>
+
+</body>
+</html>

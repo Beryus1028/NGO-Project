@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+     width: 98%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    /* background-color: rgb(100, 100,100); */
+    background-color: white;
+}
+.card-picture{
+    width: 85%;
+    height: 450px;
+}
+
+h2, h4{
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+
+
+}
+
+p{
+    padding: 10px;
+    margin: 1px;
+    text-align: justify;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+
+}
+
+/* button{
+    width: 10%;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #000;
+} */
+
+.social-icons a{
+    display: inline-block;
+    margin: 5px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.kindness{
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.teacher{
+    padding-top: 100px;
+}
+
+.teacher h2{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.style{
+    font-size: xx-large;
+    font-stretch: wider;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 40px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all.50s ease;
+    cursor: pointer;
+}
+
+/* .btn:hover {
+    transform: translateX(10px);
+    border: 2px solid #fff;
+    background-color: blue;
+    color: black;
+
+} */
+
+.aside{
+    display: flex;
+    padding: 15px;
+    margin: 2px;
+}
+
+.aside1{
+    padding: 50px;
+    margin: 2px;
+}
+
+.aside{
+    padding: 50px;
+    margin: 2px;
+}
+
+@media screen and (max-width:768px) {
+    .aside{
+        display: block;
+    }
+}

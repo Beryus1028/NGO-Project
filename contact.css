@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+
+.aside{
+    display: flex;
+    color: white;
+}
+
+.text{
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.text1{
+    padding-top: 50px;
+}
+
+
+.headerr{
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+
+}
+
+
+.containercon {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group textarea {
+    height: 100px;
+}
+
+.form-groups input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.form-groups input[type="submit"]:hover {
+    background-color: #000;
+}
+
+.error {
+    color: red;
+}
+
+.img1{
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .aside{
+        display: block;
+        color: white;
+    }
+
+    .img1{
+        width: 100%;
+        background-size: 100%;
+        background-position: center;
+    }
+}
+
+ 

@@ -1,0 +1,43 @@
+.partner{
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    font-weight: 100%;
+    
+}
+
+.partner .ht{
+    padding-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.partnerbody{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:768px){
+    .partner{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .partnerbody{
+        display: block;
+        justify-content: center;
+        padding-right: 30px;
+        align-items: center;
+        width: 80%;
+    }
+
+    .partnerbody img{
+        width: 100%;
+    }
+}

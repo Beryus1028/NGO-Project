@@ -1,0 +1,57 @@
+.c h1{
+    text-align: center;
+    color: black;
+}
+
+.containerdon{
+    text-align: center;
+    color: black;
+    padding: 3px;
+}
+
+.btttn{
+    display: inline-block;
+    padding: 13px 40px;
+    background-color: #333;
+    color: white;
+    font-size: 2px;
+    font-weight: 200;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    transition: all.50s ease;
+    cursor: pointer;
+}
+
+.btttn:hover{
+    transform: translateX(10px);
+    border: 2px solid #fff;
+    background-color: aliceblue;
+    color: #333;
+}
+
+.abc{
+    padding-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input [type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box ;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width:768px) {
+    .containerdon{
+        width: 100%;
+    }
+
+    .abc{
+        width: 100%;
+    }
+}
+

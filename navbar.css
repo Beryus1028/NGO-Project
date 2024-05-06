@@ -1,0 +1,122 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style-type: none;
+text-decoration: none;
+border: none;
+outline: none;
+scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fff;
+    color: #fff;
+
+}
+
+.mmm {
+    /* background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(img/6bea4655-5971-4769-901f-3d9114b40693.jfif); */
+    background-size: cover;
+    background-position: top;
+    /* background-attachment: fixed; */
+     background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(blur);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: transparent;
+    padding: 27px 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all.50s ease;
+}
+
+.logo{
+    font-size: 23px;
+    color: #fff;
+    font-weight: 350;
+    
+}
+
+span{
+    color: dodgerblue;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 22px;
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+
+}
+
+@media screen and (max-width:768px){
+    .hamburger{
+        display: block;
+        justify-self: left;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navbar{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #262626;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-link{
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
